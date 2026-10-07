@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">GovWork Assistant</string>
+    <string name="app_short_name">ગોવવર્ક</string>
+    <string name="nav_dashboard">ડેશબોર્ડ</string>
+    <string name="nav_tasks">કાર્યો</string>
+    <string name="nav_files">ફાઇલો</string>
+    <string name="nav_meetings">મીટિંગ્સ</string>
+    <string name="nav_more">વધુ</string>
+
+    <!-- Profile & Onboarding -->
+    <string name="profile_title">કર્મચારી પ્રોફાઇલ</string>
+    <string name="profile_setup_title">તમારી પ્રોફાઇલ સેટ કરો</string>
+    <string name="profile_setup_subtitle">સરકારી કર્મચારીઓ માટે વ્યક્તિગત કાર્ય વ્યવસ્થાપક. તમામ ડેટા તમારા ઉપકરણ પર સુરક્ષિત રીતે સંગ્રહિત થાય છે.</string>
+    <string name="profile_name">કર્મચારીનું નામ</string>
+    <string name="profile_department">વિભાગ / શાખા</string>
+    <string name="profile_designation">હોદ્દો (હોદ્દો)</string>
+    <string name="profile_office">કચેરી / સંસ્થા</string>
+    <string name="profile_emp_id">કર્મચારી આઈડી (વૈકલ્પિક)</string>
+    <string name="btn_save_profile">પ્રોફાઇલ સાચવો</string>
+    <string name="btn_skip_optional">છોડો</string>
+    <string name="btn_edit_profile">પ્રોફાઇલમાં ફેરફાર કરો</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">નમસ્તે, %1$s</string>
+    <string name="dashboard_today_tasks">આજના કાર્યો</string>
+    <string name="dashboard_pending_tasks">બાકી કાર્યો</string>
+    <string name="dashboard_overdue_tasks">સમય વીતી ગયેલ કાર્યો</string>
+    <string name="dashboard_pending_files">બાકી ફાઇલો</string>
+    <string name="dashboard_today_meetings">આજની મીટિંગ્સ</string>
+    <string name="dashboard_quick_actions">ઝડપી ક્રિયાઓ</string>
+    <string name="dashboard_action_task">+ કાર્ય ઉમેરો</string>
+    <string name="dashboard_action_file">+ ફાઇલ ઉમેરો</string>
+    <string name="dashboard_action_meeting">+ મીટિંગ ઉમેરો</string>
+    <string name="dashboard_action_voice">+ વૉઇસ નોટ</string>
+    <string name="dashboard_todays_schedule">આજનું સમયપત્રક</string>
+    <string name="dashboard_recent_files">તાજેતરની ફાઇલો</string>
+    <string name="dashboard_no_schedule">આજના દિવસ માટે કોઈ કાર્યો કે મીટિંગ નથી.</string>
+    <string name="dashboard_no_recent_files">હજી કોઈ ફાઇલ ઉમેરેલ નથી.</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">કાર્ય વ્યવસ્થાપન</string>
+    <string name="add_task">કાર્ય ઉમેરો</string>
+    <string name="edit_task">કાર્ય સંપાદિત કરો</string>
+    <string name="task_title">કાર્ય શીર્ષક</string>
+    <string name="task_description">વર્ણન</string>
+    <string name="task_category">શ્રેણી</string>
+    <string name="task_priority">પ્રાથમિકતા</string>
+    <string name="task_status">સ્થિતિ</string>
+    <string name="task_created_date">બનાવ્યા તારીખ</string>
+    <string name="task_due_date">અંતિમ તારીખ</string>
+    <string name="task_reminder_datetime">રીમાઇન્ડર તારીખ અને સમય</string>
+    <string name="task_notes">નોંધ</string>
+    <string name="filter_all">બધા</string>
+    <string name="filter_today">આજે</string>
+    <string name="filter_upcoming">આગામી</string>
+    <string name="filter_overdue">વિલંબિત</string>
+    <string name="filter_completed">પૂર્ણ</string>
+    <string name="filter_high_priority">ઉચ્ચ પ્રાથમિકતા</string>
+    <string name="priority_low">ઓછી</string>
+    <string name="priority_medium">મધ્યમ</string>
+    <string name="priority_high">ઉચ્ચ</string>
+    <string name="priority_urgent">તાકીદનું</string>
+    <string name="status_pending">બાકી</string>
+    <string name="status_in_progress">ચાલુ છે</string>
+    <string name="status_completed">પૂર્ણ થયેલ</string>
+    <string name="status_cancelled">રદ કરેલ</string>
+    <string name="empty_tasks">કોઈ કાર્યો નથી</string>
+    <string name="btn_complete">પૂર્ણ કરો</string>
+    <string name="btn_reopen">પુનઃ ખોલો</string>
+
+    <!-- File Tracker -->
+    <string name="files_title">ફાઇલ ટ્રેકર</string>
+    <string name="add_file">ફાઇલ ઉમેરો</string>
+    <string name="edit_file">ફાઇલ સંપાદિત કરો</string>
+    <string name="file_number">ફાઇલ નંબર / ક્રમાંક</string>
+    <string name="file_subject">વિષય</string>
+    <string name="file_description">વર્ણન</string>
+    <string name="file_received_date">આવ્યા તારીખ</string>
+    <string name="file_current_status">વર્તમાન સ્થિતિ</string>
+    <string name="file_current_section">હાલની શાખા / વિભાગ</string>
+    <string name="file_current_person">હાલના કર્મચારી / અધિકારી</string>
+    <string name="file_next_action">આગામી પગલું / કાર્યવાહી</string>
+    <string name="file_history_title">ફાઇલ ઇતિહાસ અને મૂવમેન્ટ</string>
+    <string name="file_add_movement">સ્થિતિ અપડેટ કરો / આગળ મોકલો</string>
+    <string name="file_movement_section">મોકલેલ શાખા</string>
+    <string name="file_movement_person">અધિકારી / કર્મચારી</string>
+    <string name="file_movement_action">કરેલ કાર્યવાહી / નોંધ</string>
+    <string name="file_attachments">જોડાણો (Attachments)</string>
+    <string name="file_add_attachment">જોડાણ ઉમેરો</string>
+    <string name="status_received">મળેલી</string>
+    <string name="status_under_process">પ્રક્રિયા હેઠળ</string>
+    <string name="status_forwarded">આગળ મોકલેલ</string>
+    <string name="status_approved">મંજૂર થયેલ</string>
+    <string name="status_rejected">નામંજૂર થયેલ</string>
+    <string name="status_closed">બંધ થયેલ (Closed)</string>
+    <string name="empty_files">કોઈ ફાઇલ ઉમેરેલી નથી</string>
+    <string name="file_history_empty">હજુ સુધી કોઈ મૂવમેન્ટ નોંધાયેલ નથી.</string>
+
+    <!-- Meetings -->
+    <string name="meetings_title">મીટિંગ ડાયરી</string>
+    <string name="add_meeting">મીટિંગ ઉમેરો</string>
+    <string name="edit_meeting">મીટિંગ સંપાદિત કરો</string>
+    <string name="meeting_title_label">મીટિંગ શીર્ષક</string>
+    <string name="meeting_date">તારીખ</string>
+    <string name="meeting_start_time">શરૂઆત સમય</string>
+    <string name="meeting_end_time">સમાપ્તિ સમય</string>
+    <string name="meeting_location">સ્થળ</string>
+    <string name="meeting_participants">ઉપસ્થિત સભ્યો</string>
+    <string name="meeting_agenda">કાર્યસૂચિ (Agenda)</string>
+    <string name="meeting_discussion">ચર્ચા</string>
+    <string name="meeting_decisions">નિર્ણયો</string>
+    <string name="meeting_action_points">અમલીકરણ મુદ્દા (Action Points)</string>
+    <string name="meeting_notes">નોંધ</string>
+    <string name="empty_meetings">કોઈ મીટિંગ નિર્ધારિત નથી</string>
+
+    <!-- Notes -->
+    <string name="notes_title">નોંધપોથી (Notes)</string>
+    <string name="add_note">નોંધ ઉમેરો</string>
+    <string name="edit_note">નોંધ સંપાદિત કરો</string>
+    <string name="note_title">શીર્ષક</string>
+    <string name="note_content">સામગ્રી</string>
+    <string name="note_category">શ્રેણી</string>
+    <string name="note_related_type">સંબંધિત</string>
+    <string name="note_related_id">સંદર્ભ આઈડી</string>
+    <string name="empty_notes">કોઈ નોંધ ઉપલબ્ધ નથી</string>
+    <string name="pin_note">પીન કરો</string>
+    <string name="unpin_note">અનપીન કરો</string>
+
+    <!-- Voice Notes -->
+    <string name="voice_notes_title">વૉઇસ નોટ્સ</string>
+    <string name="add_voice_note">નવું રેકોર્ડિંગ</string>
+    <string name="btn_record">રેકોર્ડ કરો</string>
+    <string name="btn_stop">બંધ કરો</string>
+    <string name="btn_play">પ્લે કરો</string>
+    <string name="btn_pause">વિરામ</string>
+    <string name="speech_to_text">વાણીથી લખાણ (Speech-to-Text)</string>
+    <string name="listening_speech">સાંભળી રહ્યા છીએ... બોલો</string>
+    <string name="convert_to_task">કાર્યમાં રૂપાંતર કરો</string>
+    <string name="convert_to_note">નોંધમાં રૂપાંતર કરો</string>
+    <string name="convert_to_action_point">એક્શન પોઇન્ટમાં ફેરવો</string>
+    <string name="empty_voice_notes">કોઈ વૉઇસ નોટ નથી</string>
+
+    <!-- Reports -->
+    <string name="reports_title">અહેવાલો (Reports)</string>
+    <string name="report_daily">દૈનિક અહેવાલ</string>
+    <string name="report_weekly">સાપ્તાહિક અહેવાલ</string>
+    <string name="report_monthly">માસિક અહેવાલ</string>
+    <string name="report_tasks_completed">પૂર્ણ થયેલ કાર્યો</string>
+    <string name="report_tasks_pending">બાકી કાર્યો</string>
+    <string name="report_files_processed">નિકાલ થયેલ ફાઇલો</string>
+    <string name="report_meetings_conducted">યોજાયેલ મીટિંગ્સ</string>
+    <string name="btn_generate_pdf">PDF બનાવો</string>
+    <string name="btn_share_pdf">PDF શેર કરો</string>
+    <string name="report_generated_success">PDF અહેવાલ સફળતાપૂર્વક તૈયાર થયો.</string>
+
+    <!-- Global Search -->
+    <string name="search_title">શોધો</string>
+    <string name="search_hint">કાર્યો, ફાઇલો, મીટિંગ્સ કે નોંધો શોધો...</string>
+    <string name="search_no_results">કોઈ પરિણામ મળ્યું નથી.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">સેટિંગ્સ</string>
+    <string name="settings_section_general">સામાન્ય</string>
+    <string name="settings_section_security">સુરક્ષા અને બેકઅપ</string>
+    <string name="settings_profile">પ્રોફાઇલ માહિતી</string>
+    <string name="settings_language">ભાષા (Language)</string>
+    <string name="settings_notifications">રીમાઇન્ડર અને સૂચનાઓ</string>
+    <string name="settings_theme">થીમ</string>
+    <string name="theme_system">સિસ્ટમ ડિફોલ્ટ</string>
+    <string name="theme_light">લાઇટ</string>
+    <string name="theme_dark">ડાર્ક</string>
+    <string name="settings_app_lock">એપ લૉક (PIN)</string>
+    <string name="settings_backup">ડેટા બેકઅપ (JSON)</string>
+    <string name="settings_restore">ડેટા પુનઃસ્થાપિત કરો</string>
+    <string name="settings_about">ગોવવર્ક વિશે</string>
+    <string name="about_description">ગોવવર્ક આસિસ્ટન્ટ એ સરકારી અને કચેરી કર્મચારીઓ માટે વ્યક્તિગત કાર્ય વ્યવસ્થાપન સાધન છે. આ કોઈ સત્તાવાર સરકારી એપ્લિકેશન નથી.</string>
+    <string name="version_label">આવૃત્તિ ૧.૦ (ઓફલાઇન-પ્રથમ)</string>
+
+    <!-- App Lock & PIN -->
+    <string name="app_lock_enter_pin">૪-અંકનો સુરક્ષા PIN દાખલ કરો</string>
+    <string name="app_lock_set_pin">૪-અંકનો સુરક્ષા PIN સેટ કરો</string>
+    <string name="app_lock_confirm_pin">PIN ની પુષ્ટિ કરો</string>
+    <string name="app_lock_wrong_pin">ખોટો PIN. ફરી પ્રયાસ કરો.</string>
+    <string name="app_lock_pin_mismatch">PIN મેળ ખાતા નથી.</string>
+    <string name="app_lock_enabled">એપ લૉક સક્રિય છે</string>
+    <string name="app_lock_disabled">એપ લૉક નિષ્ક્રિય છે</string>
+    <string name="btn_unlock">અનલૉક કરો</string>
+
+    <!-- Common UI -->
+    <string name="btn_save">સાચવો</string>
+    <string name="btn_cancel">રદ કરો</string>
+    <string name="btn_delete">કાઢી નાખો</string>
+    <string name="btn_confirm">ખાતરી કરો</string>
+    <string name="btn_dismiss">બંધ કરો</string>
+    <string name="btn_open">ખોલો</string>
+    <string name="btn_share">શેર કરો</string>
+    <string name="dialog_delete_confirm">શું તમે ખરેખર આ રેકોર્ડ કાઢી નાખવા માંગો છો?</string>
+    <string name="dialog_restore_confirm">શું તમે બેકઅપમાંથી ડેટા પુનઃસ્થાપિત કરવા માંગો છો?</string>
+    <string name="toast_saved">સફળતાપૂર્વક સાચવવામાં આવ્યું</string>
+    <string name="toast_deleted">કાઢી નાખવામાં આવ્યું</string>
+    <string name="toast_backup_exported">બેકઅપ નિકાસ સફળ</string>
+    <string name="toast_restore_success">ડેટા પુનઃસ્થાપિત સફળ</string>
+    <string name="toast_error">ભૂલ: %1$s</string>
+    <string name="permission_mic_required">વૉઇસ નોટ માટે માઇક્રોફોન પરવાનગી જરૂરી છે.</string>
+    <string name="permission_notif_required">રીમાઇન્ડર માટે સૂચના પરવાનગી જરૂરી છે.</string>
+</resources>

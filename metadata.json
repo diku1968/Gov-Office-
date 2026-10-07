@@ -1,0 +1,6 @@
+{
+  "name": "GovWork Assistant",
+  "description": "Personal work-management assistant for government employees and office staff with task tracking, file movement history, meetings, voice notes, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

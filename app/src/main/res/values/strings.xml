@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">GovWork Assistant</string>
+    <string name="app_short_name">GovWork</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_meetings">Meetings</string>
+    <string name="nav_more">More</string>
+
+    <!-- Profile & Onboarding -->
+    <string name="profile_title">Employee Profile</string>
+    <string name="profile_setup_title">Set Up Your Profile</string>
+    <string name="profile_setup_subtitle">Personal work-management assistant for government employees &amp; staff. All data is saved privately on your device.</string>
+    <string name="profile_name">Employee Name</string>
+    <string name="profile_department">Department</string>
+    <string name="profile_designation">Designation</string>
+    <string name="profile_office">Office / Organization</string>
+    <string name="profile_emp_id">Employee ID (Optional)</string>
+    <string name="btn_save_profile">Save Profile</string>
+    <string name="btn_skip_optional">Skip</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello, %1$s</string>
+    <string name="dashboard_today_tasks">Today\'s Tasks</string>
+    <string name="dashboard_pending_tasks">Pending Tasks</string>
+    <string name="dashboard_overdue_tasks">Overdue Tasks</string>
+    <string name="dashboard_pending_files">Pending Files</string>
+    <string name="dashboard_today_meetings">Today\'s Meetings</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="dashboard_action_task">+ Add Task</string>
+    <string name="dashboard_action_file">+ Add File</string>
+    <string name="dashboard_action_meeting">+ Add Meeting</string>
+    <string name="dashboard_action_voice">+ Voice Note</string>
+    <string name="dashboard_todays_schedule">Today\'s Schedule</string>
+    <string name="dashboard_recent_files">Recent Files</string>
+    <string name="dashboard_no_schedule">No tasks, meetings or file actions scheduled for today.</string>
+    <string name="dashboard_no_recent_files">No files added yet.</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">Task Management</string>
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Description</string>
+    <string name="task_category">Category</string>
+    <string name="task_priority">Priority</string>
+    <string name="task_status">Status</string>
+    <string name="task_created_date">Created Date</string>
+    <string name="task_due_date">Due Date</string>
+    <string name="task_reminder_datetime">Reminder Date &amp; Time</string>
+    <string name="task_notes">Notes</string>
+    <string name="filter_all">All</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_upcoming">Upcoming</string>
+    <string name="filter_overdue">Overdue</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_high_priority">High Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="priority_urgent">Urgent</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="empty_tasks">No tasks yet</string>
+    <string name="btn_complete">Complete</string>
+    <string name="btn_reopen">Reopen</string>
+
+    <!-- File Tracker -->
+    <string name="files_title">File Tracker</string>
+    <string name="add_file">Add File</string>
+    <string name="edit_file">Edit File</string>
+    <string name="file_number">File Number</string>
+    <string name="file_subject">Subject</string>
+    <string name="file_description">Description</string>
+    <string name="file_received_date">Received Date</string>
+    <string name="file_current_status">Current Status</string>
+    <string name="file_current_section">Current Section / Department</string>
+    <string name="file_current_person">Current Person / Dealing Hand</string>
+    <string name="file_next_action">Next Action Required</string>
+    <string name="file_history_title">File Movement History</string>
+    <string name="file_add_movement">Update Status / Movement</string>
+    <string name="file_movement_section">Forwarded / Current Section</string>
+    <string name="file_movement_person">Officer / Person In-Charge</string>
+    <string name="file_movement_action">Action Taken / Remarks</string>
+    <string name="file_attachments">Attachments</string>
+    <string name="file_add_attachment">Add Attachment</string>
+    <string name="status_received">Received</string>
+    <string name="status_under_process">Under Process</string>
+    <string name="status_forwarded">Forwarded</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="status_closed">Closed</string>
+    <string name="empty_files">No files added</string>
+    <string name="file_history_empty">No movement records recorded yet.</string>
+
+    <!-- Meetings -->
+    <string name="meetings_title">Meeting Diary</string>
+    <string name="add_meeting">Add Meeting</string>
+    <string name="edit_meeting">Edit Meeting</string>
+    <string name="meeting_title_label">Meeting Title</string>
+    <string name="meeting_date">Meeting Date</string>
+    <string name="meeting_start_time">Start Time</string>
+    <string name="meeting_end_time">End Time</string>
+    <string name="meeting_location">Location / Venue</string>
+    <string name="meeting_participants">Participants / Attendees</string>
+    <string name="meeting_agenda">Agenda</string>
+    <string name="meeting_discussion">Discussion</string>
+    <string name="meeting_decisions">Decisions</string>
+    <string name="meeting_action_points">Action Points</string>
+    <string name="meeting_notes">Notes</string>
+    <string name="empty_meetings">No meetings scheduled</string>
+
+    <!-- Notes -->
+    <string name="notes_title">Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_content">Content</string>
+    <string name="note_category">Category</string>
+    <string name="note_related_type">Related To</string>
+    <string name="note_related_id">Related Reference</string>
+    <string name="empty_notes">No notes available</string>
+    <string name="pin_note">Pin Note</string>
+    <string name="unpin_note">Unpin Note</string>
+
+    <!-- Voice Notes -->
+    <string name="voice_notes_title">Voice Notes</string>
+    <string name="add_voice_note">New Recording</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="speech_to_text">Speech-to-Text</string>
+    <string name="listening_speech">Listening... speak now</string>
+    <string name="convert_to_task">Convert to Task</string>
+    <string name="convert_to_note">Convert to Note</string>
+    <string name="convert_to_action_point">Convert to Action Point</string>
+    <string name="empty_voice_notes">No voice notes recorded yet</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Reports</string>
+    <string name="report_daily">Daily Report</string>
+    <string name="report_weekly">Weekly Report</string>
+    <string name="report_monthly">Monthly Report</string>
+    <string name="report_tasks_completed">Tasks Completed</string>
+    <string name="report_tasks_pending">Tasks Pending</string>
+    <string name="report_files_processed">Files Processed</string>
+    <string name="report_meetings_conducted">Meetings Conducted</string>
+    <string name="btn_generate_pdf">Generate PDF</string>
+    <string name="btn_share_pdf">Share PDF</string>
+    <string name="report_generated_success">PDF Report generated successfully.</string>
+
+    <!-- Global Search -->
+    <string name="search_title">Search Everything</string>
+    <string name="search_hint">Search tasks, files, meetings, notes...</string>
+    <string name="search_no_results">No matching records found.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_security">Security &amp; Backup</string>
+    <string name="settings_profile">Profile Information</string>
+    <string name="settings_language">Language / ભાષા / भाषा</string>
+    <string name="settings_notifications">Reminders &amp; Notifications</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_app_lock">App Lock (PIN)</string>
+    <string name="settings_backup">Backup Data (JSON)</string>
+    <string name="settings_restore">Restore Data</string>
+    <string name="settings_about">About GovWork Assistant</string>
+    <string name="about_description">GovWork Assistant is a private, offline personal work management tool designed to streamline file movements, tasks, and meetings for government employees and office staff. It is NOT an official government application and does not connect to government servers.</string>
+    <string name="version_label">Version 1.0 (Offline-First)</string>
+
+    <!-- App Lock & PIN -->
+    <string name="app_lock_enter_pin">Enter 4-Digit Security PIN</string>
+    <string name="app_lock_set_pin">Set 4-Digit Security PIN</string>
+    <string name="app_lock_confirm_pin">Confirm Security PIN</string>
+    <string name="app_lock_wrong_pin">Incorrect PIN. Please try again.</string>
+    <string name="app_lock_pin_mismatch">PINs do not match. Try again.</string>
+    <string name="app_lock_enabled">App Lock Enabled</string>
+    <string name="app_lock_disabled">App Lock Disabled</string>
+    <string name="btn_unlock">Unlock</string>
+
+    <!-- Common UI -->
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_share">Share</string>
+    <string name="dialog_delete_confirm">Are you sure you want to delete this record? This action cannot be undone.</string>
+    <string name="dialog_restore_confirm">Are you sure you want to restore data from this backup? Existing records will be preserved and merged.</string>
+    <string name="toast_saved">Successfully saved</string>
+    <string name="toast_deleted">Successfully deleted</string>
+    <string name="toast_backup_exported">Backup exported successfully</string>
+    <string name="toast_restore_success">Data restored successfully</string>
+    <string name="toast_error">An error occurred: %1$s</string>
+    <string name="permission_mic_required">Microphone permission is required to record voice notes.</string>
+    <string name="permission_notif_required">Notification permission is required for task reminders.</string>
+</resources>

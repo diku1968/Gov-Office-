@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">GovWork Assistant</string>
+    <string name="app_short_name">गववर्क</string>
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_tasks">कार्य</string>
+    <string name="nav_files">फाइलें</string>
+    <string name="nav_meetings">बैठकें</string>
+    <string name="nav_more">अधिक</string>
+
+    <!-- Profile & Onboarding -->
+    <string name="profile_title">कर्मचारी प्रोफाइल</string>
+    <string name="profile_setup_title">अपनी प्रोफाइल सेट करें</string>
+    <string name="profile_setup_subtitle">सरकारी कर्मचारियों और कार्यालय स्टाफ के लिए व्यक्तिगत कार्य-प्रबंधन सहायक। सभी डेटा आपके डिवाइस पर सुरक्षित रूप से संग्रहीत है।</string>
+    <string name="profile_name">कर्मचारी का नाम</string>
+    <string name="profile_department">विभाग / अनुभाग</string>
+    <string name="profile_designation">पदनाम</string>
+    <string name="profile_office">कार्यालय / संगठन</string>
+    <string name="profile_emp_id">कर्मचारी आईडी (वैकल्पिक)</string>
+    <string name="btn_save_profile">प्रोफाइल सहेजें</string>
+    <string name="btn_skip_optional">छोड़ें</string>
+    <string name="btn_edit_profile">प्रोफाइल संपादित करें</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">नमस्ते, %1$s</string>
+    <string name="dashboard_today_tasks">आज के कार्य</string>
+    <string name="dashboard_pending_tasks">लंबित कार्य</string>
+    <string name="dashboard_overdue_tasks">अतिदेय कार्य</string>
+    <string name="dashboard_pending_files">लंबित फाइलें</string>
+    <string name="dashboard_today_meetings">आज की बैठकें</string>
+    <string name="dashboard_quick_actions">त्वरित कार्य</string>
+    <string name="dashboard_action_task">+ कार्य जोड़ें</string>
+    <string name="dashboard_action_file">+ फाइल जोड़ें</string>
+    <string name="dashboard_action_meeting">+ बैठक जोड़ें</string>
+    <string name="dashboard_action_voice">+ वॉइस नोट</string>
+    <string name="dashboard_todays_schedule">आज की अनुसूची</string>
+    <string name="dashboard_recent_files">हालिया फाइलें</string>
+    <string name="dashboard_no_schedule">आज के लिए कोई कार्य, बैठक या फाइल गतिविधि नहीं है।</string>
+    <string name="dashboard_no_recent_files">अभी कोई फाइल नहीं जोड़ी गई है।</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">कार्य प्रबंधन</string>
+    <string name="add_task">कार्य जोड़ें</string>
+    <string name="edit_task">कार्य संपादित करें</string>
+    <string name="task_title">कार्य का शीर्षक</string>
+    <string name="task_description">विवरण</string>
+    <string name="task_category">श्रेणी</string>
+    <string name="task_priority">प्राथमिकता</string>
+    <string name="task_status">स्थिति</string>
+    <string name="task_created_date">सृजन तिथि</string>
+    <string name="task_due_date">नियत तिथि</string>
+    <string name="task_reminder_datetime">रिमाइंडर तिथि और समय</string>
+    <string name="task_notes">टिप्पणियाँ</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_today">आज</string>
+    <string name="filter_upcoming">आगामी</string>
+    <string name="filter_overdue">विलंबित</string>
+    <string name="filter_completed">पूर्ण</string>
+    <string name="filter_high_priority">उच्च प्राथमिकता</string>
+    <string name="priority_low">कम</string>
+    <string name="priority_medium">मध्यम</string>
+    <string name="priority_high">उच्च</string>
+    <string name="priority_urgent">अति आवश्यक</string>
+    <string name="status_pending">लंबित</string>
+    <string name="status_in_progress">प्रगति पर</string>
+    <string name="status_completed">पूर्ण</string>
+    <string name="status_cancelled">रद्द</string>
+    <string name="empty_tasks">कोई कार्य नहीं है</string>
+    <string name="btn_complete">पूर्ण करें</string>
+    <string name="btn_reopen">पुनः खोलें</string>
+
+    <!-- File Tracker -->
+    <string name="files_title">फाइल ट्रैकर</string>
+    <string name="add_file">फाइल जोड़ें</string>
+    <string name="edit_file">फाइल संपादित करें</string>
+    <string name="file_number">फाइल क्रमांक / संख्या</string>
+    <string name="file_subject">विषय</string>
+    <string name="file_description">विवरण</string>
+    <string name="file_received_date">प्राप्ति तिथि</string>
+    <string name="file_current_status">वर्तमान स्थिति</string>
+    <string name="file_current_section">वर्तमान अनुभाग / शाखा</string>
+    <string name="file_current_person">वर्तमान प्रभारी / अधिकारी</string>
+    <string name="file_next_action">आगामी आवश्यक कार्रवाई</string>
+    <string name="file_history_title">फाइल गतिशीलता इतिहास</string>
+    <string name="file_add_movement">स्थिति अपडेट / अग्रेषित करें</string>
+    <string name="file_movement_section">अग्रेषित अनुभाग</string>
+    <string name="file_movement_person">प्रभारी अधिकारी</string>
+    <string name="file_movement_action">की गई कार्रवाई / टिप्पणी</string>
+    <string name="file_attachments">संलग्नक (Attachments)</string>
+    <string name="file_add_attachment">संलग्नक जोड़ें</string>
+    <string name="status_received">प्राप्त</string>
+    <string name="status_under_process">प्रक्रियाधीन</string>
+    <string name="status_forwarded">अग्रेषित</string>
+    <string name="status_approved">स्वीकृत</string>
+    <string name="status_rejected">अस्वीकृत</string>
+    <string name="status_closed">बंद (Closed)</string>
+    <string name="empty_files">कोई फाइल नहीं जोड़ी गई है</string>
+    <string name="file_history_empty">अभी तक कोई गतिशीलता इतिहास दर्ज नहीं है।</string>
+
+    <!-- Meetings -->
+    <string name="meetings_title">बैठक डायरी</string>
+    <string name="add_meeting">बैठक जोड़ें</string>
+    <string name="edit_meeting">बैठक संपादित करें</string>
+    <string name="meeting_title_label">बैठक का शीर्षक</string>
+    <string name="meeting_date">बैठक तिथि</string>
+    <string name="meeting_start_time">प्रारंभ समय</string>
+    <string name="meeting_end_time">समाप्ति समय</string>
+    <string name="meeting_location">स्थान / कक्ष</string>
+    <string name="meeting_participants">प्रतिभागी / उपस्थित सदस्य</string>
+    <string name="meeting_agenda">कार्यसूची (Agenda)</string>
+    <string name="meeting_discussion">चर्चा के बिंदु</string>
+    <string name="meeting_decisions">लिए गए निर्णय</string>
+    <string name="meeting_action_points">कार्रवाई बिंदु (Action Points)</string>
+    <string name="meeting_notes">टिप्पणियाँ</string>
+    <string name="empty_meetings">कोई बैठक निर्धारित नहीं है</string>
+
+    <!-- Notes -->
+    <string name="notes_title">नोट्स</string>
+    <string name="add_note">नोट जोड़ें</string>
+    <string name="edit_note">नोट संपादित करें</string>
+    <string name="note_title">शीर्षक</string>
+    <string name="note_content">सामग्री</string>
+    <string name="note_category">श्रेणी</string>
+    <string name="note_related_type">संबंधित संदर्भ</string>
+    <string name="note_related_id">संदर्भ आईडी</string>
+    <string name="empty_notes">कोई नोट उपलब्ध नहीं है</string>
+    <string name="pin_note">पिन करें</string>
+    <string name="unpin_note">अनपिन करें</string>
+
+    <!-- Voice Notes -->
+    <string name="voice_notes_title">वॉइस नोट्स</string>
+    <string name="add_voice_note">नई रिकॉर्डिंग</string>
+    <string name="btn_record">रिकॉर्ड करें</string>
+    <string name="btn_stop">रोकें</string>
+    <string name="btn_play">प्ले करें</string>
+    <string name="btn_pause">विराम दें</string>
+    <string name="speech_to_text">आवाज से पाठ (Speech-to-Text)</string>
+    <string name="listening_speech">सुन रहे हैं... बोलिए</string>
+    <string name="convert_to_task">कार्य में बदलें</string>
+    <string name="convert_to_note">नोट में बदलें</string>
+    <string name="convert_to_action_point">कार्रवाई बिंदु में बदलें</string>
+    <string name="empty_voice_notes">कोई वॉइस नोट रिकॉर्ड नहीं है</string>
+
+    <!-- Reports -->
+    <string name="reports_title">रिपोर्ट्स</string>
+    <string name="report_daily">दैनिक रिपोर्ट</string>
+    <string name="report_weekly">साप्ताहिक रिपोर्ट</string>
+    <string name="report_monthly">मासिक रिपोर्ट</string>
+    <string name="report_tasks_completed">पूर्ण कार्य</string>
+    <string name="report_tasks_pending">लंबित कार्य</string>
+    <string name="report_files_processed">संसाधित फाइलें</string>
+    <string name="report_meetings_conducted">आयोजित बैठकें</string>
+    <string name="btn_generate_pdf">PDF बनाएं</string>
+    <string name="btn_share_pdf">PDF साझा करें</string>
+    <string name="report_generated_success">PDF रिपोर्ट सफलतापूर्वक तैयार हो गई।</string>
+
+    <!-- Global Search -->
+    <string name="search_title">खोजें</string>
+    <string name="search_hint">कार्य, फाइल, बैठक या नोट खोजें...</string>
+    <string name="search_no_results">कोई मेल खाता रिकॉर्ड नहीं मिला।</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_section_general">सामान्य</string>
+    <string name="settings_section_security">सुरक्षा एवं बैकअप</string>
+    <string name="settings_profile">प्रोफाइल जानकारी</string>
+    <string name="settings_language">भाषा (Language)</string>
+    <string name="settings_notifications">रिमाइंडर एवं सूचनाएं</string>
+    <string name="settings_theme">थीम</string>
+    <string name="theme_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_dark">डार्क</string>
+    <string name="settings_app_lock">ऐप लॉक (PIN)</string>
+    <string name="settings_backup">डेटा बैकअप (JSON)</string>
+    <string name="settings_restore">डेटा पुनर्स्थापित करें</string>
+    <string name="settings_about">गववर्क के बारे में</string>
+    <string name="about_description">गववर्क असिस्टेंट सरकारी कर्मचारियों और कार्यालय स्टाफ के लिए एक व्यक्तिगत कार्य-प्रबंधन टूल है। यह कोई आधिकारिक सरकारी ऐप नहीं है।</string>
+    <string name="version_label">संस्करण १.० (ऑफ़लाइन-प्रथम)</string>
+
+    <!-- App Lock & PIN -->
+    <string name="app_lock_enter_pin">४-अंकों का सुरक्षा PIN दर्ज करें</string>
+    <string name="app_lock_set_pin">४-अंकों का सुरक्षा PIN सेट करें</string>
+    <string name="app_lock_confirm_pin">PIN की पुष्टि करें</string>
+    <string name="app_lock_wrong_pin">गलत PIN। पुनः प्रयास करें।</string>
+    <string name="app_lock_pin_mismatch">PIN मेल नहीं खाते।</string>
+    <string name="app_lock_enabled">ऐप लॉक सक्रिय है</string>
+    <string name="app_lock_disabled">ऐप लॉक निष्क्रिय है</string>
+    <string name="btn_unlock">अनलॉक करें</string>
+
+    <!-- Common UI -->
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="btn_confirm">पुष्टि करें</string>
+    <string name="btn_dismiss">बंद करें</string>
+    <string name="btn_open">खोलें</string>
+    <string name="btn_share">साझा करें</string>
+    <string name="dialog_delete_confirm">क्या आप वाकई इस रिकॉर्ड को हटाना चाहते हैं?</string>
+    <string name="dialog_restore_confirm">क्या आप बैकअप से डेटा पुनर्स्थापित करना चाहते हैं?</string>
+    <string name="toast_saved">सफलतापूर्वक सहेजा गया</string>
+    <string name="toast_deleted">सफलतापूर्वक हटाया गया</string>
+    <string name="toast_backup_exported">बैकअप निर्यात सफल</string>
+    <string name="toast_restore_success">डेटा पुनर्स्थापना सफल</string>
+    <string name="toast_error">त्रुटि: %1$s</string>
+    <string name="permission_mic_required">वॉइस नोट के लिए माइक्रोफ़ोन अनुमति आवश्यक है।</string>
+    <string name="permission_notif_required">रिमाइंडर के लिए सूचना अनुमति आवश्यक है।</string>
+</resources>
